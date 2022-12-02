@@ -3,8 +3,9 @@
 <JUCERPROJECT name="GainPlugin" companyName="JUCE" version="1.0.0" userNotes="Gain audio plugin."
               companyWebsite="http://juce.com" displaySplashScreen="1" defines="PIP_JUCE_EXAMPLES_DIRECTORY=L1VzZXJzL2V2YW4vSlVDRS9leGFtcGxlcw=="
               projectType="audioplug" pluginAUIsSandboxSafe="1" pluginManufacturer="JUCE"
-              pluginFormats="buildAU,buildStandalone,buildVST3" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="1" id="cO97gd" jucerFormatVersion="1">
+              pluginFormats="buildAU,buildStandalone,buildVST3" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="1" id="cO97gd" jucerFormatVersion="1"
+              includeBinaryInJuceHeader="0">
   <MAINGROUP id="oLprct" name="GainPlugin">
     <GROUP id="{B7F79B70-07DB-B39E-1EA7-01EA96BA3D83}" name="Source">
       <FILE id="qTwWfA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
