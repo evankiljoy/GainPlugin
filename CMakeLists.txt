@@ -26,6 +26,7 @@ project(
 
 # adds JuceLibraryCode to includes
 include_directories(JuceLibraryCode)
+include_directories(modules)
 
 # Link each target with other targets or add options, etc.
 
