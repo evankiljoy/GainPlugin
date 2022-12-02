@@ -13,7 +13,7 @@ project(
 
 # If you set any CMAKE_ variables, that can go here.
 # (But usually don't do this, except maybe for C++ standard)
-set(CMAKE_CXX_STANDARD 26) 
+set(CMAKE_CXX_STANDARD 17) 
 
 # Find packages go here.
 
