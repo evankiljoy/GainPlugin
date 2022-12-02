@@ -3,17 +3,17 @@
 # and oldest tested versions of CMake. This will ensure
 # you pick up the best policies.
 cmake_minimum_required(VERSION 3.25)
-set(CMAKE_CXX_STANDARD 11)
 
 # This is your project statement. You should always list languages;
 # Listing the version is nice here since it sets lots of useful variables
 project(
   GainPlugin
-  VERSION 0.1
+  VERSION 1.0
   LANGUAGES CXX)
 
 # If you set any CMAKE_ variables, that can go here.
 # (But usually don't do this, except maybe for C++ standard)
+set(CMAKE_CXX_STANDARD 26) 
 
 # Find packages go here.
 
