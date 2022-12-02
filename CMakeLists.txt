@@ -22,7 +22,7 @@ project(
 # Other common choices are STATIC, SHARED, and MODULE
 # Including header files here helps IDEs but is not required.
 # Output libname matches target name, with the usual extensions on your system
-add_library(JuceAudioBasics JuceLibraryCode/include_juce_audio_basics.cpp)
+# add_library(JuceAudioBasics JuceLibraryCode/include_juce_audio_basics.cpp)
 
 # Link each target with other targets or add options, etc.
 
