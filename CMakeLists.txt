@@ -24,6 +24,9 @@ project(
 # Output libname matches target name, with the usual extensions on your system
 # add_library(JuceAudioBasics JuceLibraryCode/include_juce_audio_basics.cpp)
 
+# adds JuceLibraryCode to includes
+include_directories(JuceLibraryCode)
+
 # Link each target with other targets or add options, etc.
 
 # Adding something we can run - Output name matches target name
